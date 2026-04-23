@@ -2,9 +2,12 @@ streamlit
 langchain
 langchain-groq
 langchain-community
+langchain-classic
+langchain-core
 transformers
 torch
 pandas
 plotly
 python-dotenv
 groq
+sentencepiece
