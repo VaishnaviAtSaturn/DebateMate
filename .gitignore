@@ -1,0 +1,70 @@
+# ── Secrets & environment ─────────────────────
+.env
+*.env
+.env.*
+
+# ── Python ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ───────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+pip-wheel-metadata/
+
+# ── Distribution / packaging ───────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+.eggs/
+MANIFEST
+
+# ── Testing ───────────────────────────────────
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+*.cover
+*.coveragerc
+.cache/
+nosetests.xml
+coverage.xml
+
+# ── HuggingFace model cache ───────────────────
+.cache/
+~/.cache/huggingface/
+transformers_cache/
+
+# ── Jupyter / IPython ─────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE & editors ─────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── OS files ──────────────────────────────────
+Desktop.ini
+ehthumbs.db
+
+# ── Logs ──────────────────────────────────────
+*.log
+logs/
+
+# ── Generated transcripts ─────────────────────
+debatemate_transcript.txt
+transcripts/
